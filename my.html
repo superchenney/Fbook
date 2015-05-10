@@ -41,6 +41,7 @@
 
 
 
+
   <link rel="stylesheet" href="assets/css/amazeui.min.css">
 <!--   <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.3.0/css/amazeui.min.css"> -->
 
@@ -53,128 +54,65 @@
 
 
 
-
 </head>
 <body>
 
 <!-- Header -->
 <header data-am-widget="header" class="am-header am-header-default am-header-fixed">
   <h1 class="am-header-title">
-    <a href="fenlei.html">Fbook仓库</a>
+    <a href="#title-link">My Fbook</a>
   </h1>
+
+  <nav class="am-header-left am-header-nav">
+    <a href="#barcode" class="am-header-icon am-icon-plus am-icon-sm"></a>
+  </nav><!-- 添加书籍 -->
+
+  <nav class="am-header-right am-header-nav" >
+    <a href="#share" class="am-header-icon am-icon-bell"></a>
+  </nav><!-- 消息 -->
+
 </header>
 
 
-<!-- <div class="am-g">
-  <div class="am-u-lg-12">
+<!-- 个人资料 -->
 
-    <div class="am-input-group">
-      
-      <input type="text" class="am-form-field" placeholder="输入书名、作者、ISBN查找">
 
-      <span class="am-input-group-btn">
-        <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span></button>
-      </span>
+<div class="am-g am-g-fixed">
+  <div class="am-u-sm-3">
+  <img class="am-circle am-img-thumbnail " src="assets/i/jiaocai.png">
+  </div>
+
+  <div class="am-u-sm-8">
+  <p>一个大金果</p>
+  <small>个人说明：。。。。。。</small>
+  </div>
+
+  <!-- <div class="am-u-sm-8 am-vertical-align" style="height: auto;">
+    <div class="am-vertical-align-middle">
+
+          <div class="am-list-item-text cc-border">
+              <ul class="am-list-main">
+                <li>一个大金果</li>
+                <li>出版社：南海出版公司</li>
+              </ul>
+            </div>
     </div>
+  </div> -->
+<br/>
 
-  </div>
-</div> -->
-<div class="am-g">
-  <div class="am-input-group">
-    <input type="text" class="am-form-field" placeholder="输入书名、作者、ISBN查找">
-    
-      <span class="am-input-group-btn">
-        <button class="am-btn am-btn-default" type="button">
-        <span class="am-icon-search"></span></button>
-      </span>
-      
-  </div>
-</div>
 
-<!-- Slider -->
-<div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{&quot;directionNav&quot;:false}'>
-
-  <ul class="am-slides">
-    <li>
-      <img src="assets/i/11.jpg">
-    </li>
-    <li>
-      <img src="assets/i/22.jpg">
-    </li>
-    <li>
-      <img src="assets/i/33.jpg">
-    </li>
-    <li>
-      <img src="assets/i/11.jpg">
-    </li>
-  </ul>
-</div>
+<!-- 分割线 -->
+<!-- <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/> -->
 
 
 
-<!-- adertisements -->
-<!-- <div>
-<ul class="am-avg-sm-3  am-thumbnails cc-border">
 
-  <li>
-  <a href="http://www.douban.com/online/11614662/">
-    <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </a>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
-  <li>
-  <img class="am-thumbnail" src="assets/i/jiaocai.png"  alt="教材"/>
-  </li>
-
+<ul class="am-nav am-nav-tabs am-nav-justify">
+  <li class="am-active"><a href="#" >书单</a></li>
+  <li><a href="#">喜欢</a></li>
+  <li ><a href="#">发布</a></li>
+  <li><a href="#">关注</a></li>
 </ul>
-</div> -->
-
-
-<div class="am-container ">
-  <div class="am-g am-center am-g-fixed">
-    <div class="am-u-sm-3">1</div>
-    <div class="am-u-sm-3">2</div>
-    <div class="am-u-sm-3">3</div>
-    <div class="am-u-sm-3">4</div>
-    <div class="am-u-sm-3">5</div>
-    <div class="am-u-sm-3">6</div>
-    <div class="am-u-sm-3">7</div>
-    <div class="am-u-sm-3">8</div>
-    <div class="am-u-sm-3">9</div>
-    <div class="am-u-sm-3">10</div>
-
-  </div>
-</div>
-
-
 
 
 
@@ -200,10 +138,7 @@
 
 
 <!-- Footer -->
-<footer data-am-widget="footer" class="am-footer am-footer-default">
- 
-  
-</footer>
+
 <div id="am-footer-mode" class="am-modal am-modal-no-btn am-switch-mode-m am-switch-mode-m-default">
   <div class="am-modal-dialog">
     <div class="am-modal-hd am-modal-footer-hd">
@@ -213,6 +148,7 @@
     
   </div>
 </div>
+
 
 <!-- Navbar -->
 <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default "

@@ -1,40 +1,123 @@
+/*commen.css*/
+
+  /*    .cc-border{
+        border:1px  solid #272822;
+      }
+*/
+
+
+/*index.css*/
+
+.am-list-item-desced {
+  padding-bottom: 0.5rem;
+}
+
+.am-list-main {
+ padding: 0 5px 5px 5px;
+  position: relative;
+}
 
 .am-list-item-hd{
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 }
 
 .am-list-item-text2 li{
 	list-style-type: none;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  line-height: 1.5em;
+  line-height: 1.2em;
   -webkit-line-clamp: 3;
   /* number of lines to show */
- 	font-size: 1.4rem;
+ 	font-size: 1.2rem;
   max-height: none;
   color: #666666;
-
-
-
-
+  margin-bottom: 1px;
 
 }
 
-.am-list-news-one .am-list .am-list-item-thumbed .am-list-thumb a img {
+
+.am-list-item-text{
+  margin-top: 0.1rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  -webkit-line-clamp: 3;
+  /* number of lines to show */
+  max-height: 2.0em;
+  color: #666666;
+  font-size: 1.2rem;
+  max-height: none;
+  margin-bottom: 1px;
+}
+
+/*.am-list-news-one .am-list .am-list-item-thumbed .am-list-thumb a img {
   width: 100%;
   height: 100%;
   vertical-align: top;
-}
-
-
-.btn-float{
-	float: right;
-  display: block;
-  padding: auto;
-  position: absolute;right:0%;top:28%; 
-}
-
-/*.cc-border{
-  border:1px  solid #272822;
 }*/
 
+/*状态图标*/
+.btn-float{
+	float: right;
+/*  display: block;
+  padding: auto;*/
+  position: absolute;right:0%;top:40%; 
+}
+
+
+
+
+
+
+.am-thumbnail {
+  display: block;
+  padding: 1px;
+  margin-bottom: 0.1rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+
+/*.cc-ad-title{
+  font-size: 0.8rem;
+  background-color: black;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: center;
+}*/
+
+
+
+
+.am-thumbnails > li {
+  padding: 0 .5rem .4rem .5rem;
+}
+
+
+/*.am-thumbnail {
+  display: block;
+  padding: 2px;
+  margin-bottom: .5rem;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}*/
+
+
+
+
+
+/*zhaoshu.css*/
+
+/*.cc-serach{
+  position: absolute; top:5px;
+  border-top: 2px;
+}*/
